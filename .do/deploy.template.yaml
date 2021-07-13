@@ -1,6 +1,8 @@
 spec:
+  name: mux-test
   services:
-    - name: mux-ruby-test
-      git:
-        branch: master
-        repo_clone_url: https://github.com/passageinc/mux_test.git
+  - environment_slug: ruby-on-rails
+    git:
+      branch: master
+      repo_clone_url: https://github.com/passageinc/mux_test.git
+    name: mux-test
