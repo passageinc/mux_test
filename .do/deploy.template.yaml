@@ -3,4 +3,4 @@ spec:
     - name: mux-ruby-test
       git:
         branch: master
-        repo_clone_url: https://github.com/passageinc/mux-test.git
+        repo_clone_url: https://github.com/passageinc/mux_test.git
