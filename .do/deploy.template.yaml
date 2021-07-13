@@ -6,3 +6,4 @@ spec:
       branch: master
       repo_clone_url: https://github.com/passageinc/mux_test.git
     name: mux-test
+    run_command: rails server -p $PORT -e ${RAILS_ENV:-production}
